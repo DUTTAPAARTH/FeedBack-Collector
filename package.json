@@ -1,0 +1,30 @@
+{
+  "name": "feedback-collector",
+  "version": "1.0.0",
+  "description": "A modern feedback collection app with persistent storage, likes, edit, delete, and sorting",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Frontend is in client/ directory - use npm run build there'",
+    "client": "cd client && npm start",
+    "client:build": "cd client && npm run build"
+  },
+  "keywords": [
+    "feedback",
+    "collection",
+    "react",
+    "express",
+    "persistent-storage"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
