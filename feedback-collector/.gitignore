@@ -38,3 +38,4 @@ data/feedback.json
 # Client build
 client/build/
 client/node_modules/
+.vercel

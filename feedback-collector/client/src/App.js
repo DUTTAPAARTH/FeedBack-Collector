@@ -504,7 +504,7 @@ const App = () => {
                         <div>
                           <h4 className="font-display font-bold text-xl tracking-tight leading-none mb-1">{f.name}</h4>
                           <span className="font-mono text-[10px] text-gray-400 font-bold uppercase tracking-widest">
-                            {new Date(f.timestamp).toLocaleDateString()} // {new Date(f.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+                            {new Date(f.timestamp).toLocaleDateString()} | {new Date(f.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
                           </span>
                         </div>
                       </div>
